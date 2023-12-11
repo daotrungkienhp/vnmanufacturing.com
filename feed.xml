@@ -1,26 +1,26 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>Shane Robinson&#39;s 11ty | TailwindCSS | Alpine.js Template</title>
+  <title>Vietnam Manufacturing</title>
   <subtitle>A highly configurable 11ty template to quickly spin up a fully functional website with TailwindCSS and Alpine.js baked in.</subtitle>
-  <link href="http://localhost:8080"/>
-  <link href="http://localhost:8080/feed.xml" rel="self"/>
+  <link href="https://vnmanufacturing.com"/>
+  <link href="https://vnmanufacturing.com/feed.xml" rel="self"/>
   <updated>2020-09-20T17:44:03Z</updated>
-  <id>http://localhost:8080</id>
+  <id>https://vnmanufacturing.com</id>
   <author>
-    <name>Shane Robinson</name>
-    <email>shane@shanerobinson.com</email>
+    <name>Thomas Dao</name>
+    <email>thomas@vnmanufacturing.com</email>
   </author>
     
     <entry>
       <title>Color Settings</title>
-      <link href="http://localhost:8080/2020/09/01/color-settings/"/>
+      <link href="https://vnmanufacturing.com/2020/09/01/color-settings/"/>
       <updated>2020-09-01T17:44:03Z</updated>
-      <id>http://localhost:8080/2020/09/01/color-settings/</id>
+      <id>https://vnmanufacturing.com/2020/09/01/color-settings/</id>
       <content type="html">&lt;p&gt;Customizing almost all the colors is easy…assuming you’re familiar with &lt;a href=&quot;https://tailwindcss.com/docs/customizing-colors&quot; title=&quot;TailwindCSS Utility-First CSS Framework&quot;&gt;how colors work in TailwindCSS&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;Check out the &lt;code&gt;/src/_data/colors.js&lt;/code&gt; file for instructions and examples of how to customize the colors around the system.&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;It should be easy to add your own customizations and settings given the comments and the code in the layouts.&lt;/em&gt;&lt;/p&gt;
 &lt;blockquote&gt;
-&lt;p&gt;NOTE: Technically you could include any additional TailwindCSS classes with the color settings. Check out the &lt;code&gt;excerptCustom&lt;/code&gt; setting below for an example of what I included to manage the display of the excerpts on the &lt;a href=&quot;http://localhost:8080/blog/&quot;&gt;blog listing page&lt;/a&gt;.&lt;br /&gt;
+&lt;p&gt;NOTE: Technically you could include any additional TailwindCSS classes with the color settings. Check out the &lt;code&gt;excerptCustom&lt;/code&gt; setting below for an example of what I included to manage the display of the excerpts on the &lt;a href=&quot;https://vnmanufacturing.com/blog/&quot;&gt;blog listing page&lt;/a&gt;.&lt;br /&gt;
 But it’s not always practical due to display variations required on different views.&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;pre class=&quot;language-js&quot;&gt;&lt;code class=&quot;language-js&quot;&gt;&lt;span class=&quot;token comment&quot;&gt;/**&lt;br /&gt; * ===== Excerpts on Post Lists&lt;br /&gt; */&lt;/span&gt;&lt;br /&gt;&lt;span class=&quot;token literal-property property&quot;&gt;excerptDefault&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&#39;text-gray-600&#39;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;&lt;br /&gt;&lt;span class=&quot;token literal-property property&quot;&gt;excerptCustom&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&#39;text-sm leading-relaxed italic text-gray-600&#39;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
@@ -36,10 +36,10 @@ But it’s not always practical due to display variations required on different 
     
     <entry>
       <title>Managing Social Share, Author, and Footer Icons</title>
-      <link href="http://localhost:8080/2020/09/02/managing-social-share-author-and-footer-icons/"/>
+      <link href="https://vnmanufacturing.com/2020/09/02/managing-social-share-author-and-footer-icons/"/>
       <updated>2020-09-02T17:44:03Z</updated>
-      <id>http://localhost:8080/2020/09/02/managing-social-share-author-and-footer-icons/</id>
-      <content type="html">&lt;p&gt;As easily as you can &lt;a href=&quot;http://localhost:8080/2020/09/01/color-settings/&quot;&gt;manage colors&lt;/a&gt;, you can also control the display, or not, the SVG icons around the site.&lt;/p&gt;
+      <id>https://vnmanufacturing.com/2020/09/02/managing-social-share-author-and-footer-icons/</id>
+      <content type="html">&lt;p&gt;As easily as you can &lt;a href=&quot;https://vnmanufacturing.com/2020/09/01/color-settings/&quot;&gt;manage colors&lt;/a&gt;, you can also control the display, or not, the SVG icons around the site.&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;NOTE: We are a &lt;a href=&quot;https://fontawesome.com/&quot;&gt;Font Awesome Pro&lt;/a&gt; member and the SVGs in the &lt;code&gt;/src/assets/svg&lt;/code&gt; directory are Font Awesome SVGs that have been modified to work specifically with &lt;a href=&quot;https://tailwindcss.com/&quot; title=&quot;TailwindCSS Utility-First CSS Framework&quot;&gt;TailwindCSS&lt;/a&gt; and the customizations of this system. If you want to add your own SVGs you’ll probably need to modify them and please be sure to &lt;strong&gt;follow the attribution license&lt;/strong&gt;.&lt;/p&gt;
 &lt;/blockquote&gt;
@@ -54,7 +54,7 @@ But it’s not always practical due to display variations required on different 
 &lt;h2&gt;Author Social Icons&lt;/h2&gt;
 &lt;p&gt;The same is true for the social links in the &lt;code&gt;/src/_data/authors.json&lt;/code&gt; where you manage social links for each author.&lt;/p&gt;
 &lt;h2&gt;Adding SVG Icons to Content in Your .md Posts&lt;/h2&gt;
-&lt;p&gt;The post &lt;a href=&quot;http://localhost:8080/2020/09/09/svg-shortcode/&quot;&gt;SVG - Shortcode&lt;/a&gt; goes into detai on how to manage all the SVG Sprites in the system and how to add them to your Post and Pages markdown content via a Shortcode.&lt;/p&gt;
+&lt;p&gt;The post &lt;a href=&quot;https://vnmanufacturing.com/2020/09/09/svg-shortcode/&quot;&gt;SVG - Shortcode&lt;/a&gt; goes into detai on how to manage all the SVG Sprites in the system and how to add them to your Post and Pages markdown content via a Shortcode.&lt;/p&gt;
 &lt;h2&gt;Post Social Share Icons&lt;/h2&gt;
 &lt;p&gt;Posts details, such as this page, have “Social Share” icons built in so readers can easily share to their favorite platform. These SVGs, alond with the native share code for each platform are managed in the &lt;code&gt;/src/_includes/components/socialshare.njk&lt;/code&gt; file.&lt;/p&gt;
 &lt;p&gt;And in the &lt;code&gt;/src/_data/structure.js&lt;/code&gt; file you can globally disable Footer and Post Share icons:&lt;/p&gt;
@@ -69,9 +69,9 @@ But it’s not always practical due to display variations required on different 
     
     <entry>
       <title>Wrap &amp; Columns - Shortcodes</title>
-      <link href="http://localhost:8080/2020/09/03/wrap-and-columns-shortcodes/"/>
+      <link href="https://vnmanufacturing.com/2020/09/03/wrap-and-columns-shortcodes/"/>
       <updated>2020-09-03T17:44:03Z</updated>
-      <id>http://localhost:8080/2020/09/03/wrap-and-columns-shortcodes/</id>
+      <id>https://vnmanufacturing.com/2020/09/03/wrap-and-columns-shortcodes/</id>
       <content type="html">&lt;p&gt;The columns below use the &lt;code&gt;wrap&lt;/code&gt;, &lt;code&gt;columns&lt;/code&gt;, and &lt;code&gt;cols&lt;/code&gt; shortcodes as shown in the following code.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Additional instructions are included in the &lt;code&gt;/utils/paired-shortcodes.js&lt;/code&gt; file.&lt;/strong&gt;&lt;/p&gt;
 &lt;blockquote&gt;
@@ -99,9 +99,9 @@ Right column
     
     <entry>
       <title>Description List - Shortcodes</title>
-      <link href="http://localhost:8080/2020/09/04/description-list-shortcodes/"/>
+      <link href="https://vnmanufacturing.com/2020/09/04/description-list-shortcodes/"/>
       <updated>2020-09-04T17:44:03Z</updated>
-      <id>http://localhost:8080/2020/09/04/description-list-shortcodes/</id>
+      <id>https://vnmanufacturing.com/2020/09/04/description-list-shortcodes/</id>
       <content type="html">&lt;p&gt;This post uses the paired shortcode &lt;code&gt;wrap&lt;/code&gt; and &lt;strong&gt;Description List&lt;/strong&gt; paired shortcodes &lt;code&gt;dl&lt;/code&gt; &lt;em&gt;(description list)&lt;/em&gt;, &lt;code&gt;dt&lt;/code&gt; &lt;em&gt;(description term)&lt;/em&gt;, and &lt;code&gt;dd&lt;/code&gt; &lt;em&gt;(description description)&lt;/em&gt;.&lt;/p&gt;
 &lt;p&gt;The &lt;code&gt;wrap&lt;/code&gt; paired shortcode used in the exmaple is optional and is used to wrap the entire list in a rounded border with a gray-200 background.&lt;/p&gt;
 &lt;blockquote&gt;
@@ -136,9 +136,9 @@ Yep. Just use the `wrap` shortcode, like in this example, and style it however y
     
     <entry>
       <title>Blockquotes - Shortcodes</title>
-      <link href="http://localhost:8080/2020/09/05/blockquotes-shortcodes/"/>
+      <link href="https://vnmanufacturing.com/2020/09/05/blockquotes-shortcodes/"/>
       <updated>2020-09-05T17:44:03Z</updated>
-      <id>http://localhost:8080/2020/09/05/blockquotes-shortcodes/</id>
+      <id>https://vnmanufacturing.com/2020/09/05/blockquotes-shortcodes/</id>
       <content type="html">&lt;h2&gt;Basic Markdown Blockquote&lt;/h2&gt;
 &lt;p&gt;Below is a basic blockquote in Markdown.&lt;/p&gt;
 &lt;pre class=&quot;language-md&quot;&gt;&lt;code class=&quot;language-md&quot;&gt;&lt;span class=&quot;token blockquote punctuation&quot;&gt;&gt;&lt;/span&gt; this is a blockquote. this is a blockquote.&lt;/code&gt;&lt;/pre&gt;
@@ -167,9 +167,9 @@ this is another blockquote via the `bq` paired shortcode located in `/utils/pair
     
     <entry>
       <title>Featured Post Images</title>
-      <link href="http://localhost:8080/2020/09/06/featured-post-images/"/>
+      <link href="https://vnmanufacturing.com/2020/09/06/featured-post-images/"/>
       <updated>2020-09-06T17:44:03Z</updated>
-      <id>http://localhost:8080/2020/09/06/featured-post-images/</id>
+      <id>https://vnmanufacturing.com/2020/09/06/featured-post-images/</id>
       <content type="html">&lt;p&gt;Just like in Wordpress, it’s easy to add a &lt;strong&gt;Featured Image&lt;/strong&gt; to display at the top of the page.&lt;/p&gt;
 &lt;p&gt;Unlike in Wordpress, you can also easily manage the height of the Featured Image at any of the &lt;a href=&quot;https://tailwindcss.com/docs/breakpoints&quot;&gt;TailwindCSS breakpoints&lt;/a&gt;.&lt;/p&gt;
 &lt;blockquote&gt;
@@ -209,9 +209,9 @@ this is another blockquote via the `bq` paired shortcode located in `/utils/pair
     
     <entry>
       <title>Full Frontmatter Example</title>
-      <link href="http://localhost:8080/2020/09/07/full-frontmatter-example/"/>
+      <link href="https://vnmanufacturing.com/2020/09/07/full-frontmatter-example/"/>
       <updated>2020-09-07T17:44:03Z</updated>
-      <id>http://localhost:8080/2020/09/07/full-frontmatter-example/</id>
+      <id>https://vnmanufacturing.com/2020/09/07/full-frontmatter-example/</id>
       <content type="html">&lt;p&gt;Currently, the frontmatter in the &lt;code&gt;index.md&lt;/code&gt; file houses all the values and controls currently available…even if they aren’t used on the home page.&lt;/p&gt;
 &lt;p&gt;Any of the frontmatter elements used on the home page can be used on ANY Page or Post in this system.&lt;/p&gt;
 &lt;p&gt;As of this posting, the &lt;code&gt;index.md&lt;/code&gt; frontmatter looks like this:&lt;/p&gt;
@@ -221,9 +221,9 @@ this is another blockquote via the `bq` paired shortcode located in `/utils/pair
     
     <entry>
       <title>YouTube Video Embed</title>
-      <link href="http://localhost:8080/2020/09/08/youtube-video-embed/"/>
+      <link href="https://vnmanufacturing.com/2020/09/08/youtube-video-embed/"/>
       <updated>2020-09-08T17:44:03Z</updated>
-      <id>http://localhost:8080/2020/09/08/youtube-video-embed/</id>
+      <id>https://vnmanufacturing.com/2020/09/08/youtube-video-embed/</id>
       <content type="html">&lt;p&gt;This system ships with a custom YouTube Embed shortcode that makes it easy to embed as many videos in your markdown posts/pages as you like.&lt;/p&gt;
 &lt;h2&gt;Features&lt;/h2&gt;
 &lt;ul&gt;
@@ -249,16 +249,16 @@ this is another blockquote via the `bq` paired shortcode located in `/utils/pair
     
     <entry>
       <title>SVG - Shortcode</title>
-      <link href="http://localhost:8080/2020/09/09/svg-shortcode/"/>
+      <link href="https://vnmanufacturing.com/2020/09/09/svg-shortcode/"/>
       <updated>2020-09-09T17:44:03Z</updated>
-      <id>http://localhost:8080/2020/09/09/svg-shortcode/</id>
+      <id>https://vnmanufacturing.com/2020/09/09/svg-shortcode/</id>
       <content type="html">&lt;p&gt;This template uses the &lt;a href=&quot;https://github.com/patrickxchong/eleventy-plugin-svg-sprite&quot;&gt;eleventy-plugin-svg-sprite&lt;/a&gt; package which compiles an SVG Sprite and installs a shortcode to display SVG in any file (Markdown, Nunjucks etc).&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;🔥 Massive Thank You to &lt;a href=&quot;https://github.com/eastslopestudio/eleventy-starter&quot;&gt;Ryan Scherler and his Eventy Starter&lt;/a&gt; where I first learned about the svg-sprite package. Thanks also to Patrick Chong for creating &lt;a href=&quot;https://www.npmjs.com/package/eleventy-plugin-svg-sprite&quot;&gt;eleventy-plugin-svg-sprite&lt;/a&gt;.&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;h2&gt;SVG Sprites : Managing Display, Colors, &amp;amp; Links&lt;/h2&gt;
 &lt;blockquote&gt;
-&lt;p&gt;NOTE: The post, &lt;a href=&quot;http://localhost:8080/2020/09/02/managing-social-share-author-and-footer-icons/&quot;&gt;Managing Social Share, Author, and Footer Icons&lt;/a&gt; goes into a bit of detail on how to manage those elements.&lt;/p&gt;
+&lt;p&gt;NOTE: The post, &lt;a href=&quot;https://vnmanufacturing.com/2020/09/02/managing-social-share-author-and-footer-icons/&quot;&gt;Managing Social Share, Author, and Footer Icons&lt;/a&gt; goes into a bit of detail on how to manage those elements.&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;SVG Sprites live in the &lt;code&gt;/src/assets/svg/&lt;/code&gt; directory and are currently used in this system on:&lt;/p&gt;
 &lt;ul&gt;
@@ -305,9 +305,9 @@ this is another blockquote via the `bq` paired shortcode located in `/utils/pair
     
     <entry>
       <title>Site META, OG, and Twitter Cards</title>
-      <link href="http://localhost:8080/2020/09/10/site-meta-og-and-twitter-cards/"/>
+      <link href="https://vnmanufacturing.com/2020/09/10/site-meta-og-and-twitter-cards/"/>
       <updated>2020-09-10T17:44:03Z</updated>
-      <id>http://localhost:8080/2020/09/10/site-meta-og-and-twitter-cards/</id>
+      <id>https://vnmanufacturing.com/2020/09/10/site-meta-og-and-twitter-cards/</id>
       <content type="html">&lt;p&gt;This system ships with the ability to manage full site META, open graph, and Twitter card data and images.&lt;/p&gt;
 &lt;h2&gt;Managing Top Level Data&lt;/h2&gt;
 &lt;p&gt;Using the &lt;code&gt;/src/_data/meta.js&lt;/code&gt; file, you can set top level site data, fallback data, and misc data such as Author and Addres information.&lt;/p&gt;
@@ -320,7 +320,7 @@ this is another blockquote via the `bq` paired shortcode located in `/utils/pair
 &lt;p&gt;The &lt;code&gt;seo: image: 2020/09/twitter-card-image.png&lt;/code&gt; will be used as the Twitter card and Open Graph image if you view the HTML source of this page.&lt;/p&gt;
 &lt;p&gt;You can also see that same image is used for the &lt;code&gt;images: thumb:&lt;/code&gt;. I thought about having a single image but thought some editors may want to have separate control over individual images used for OG and Twitter and the thumbnail displayed on the Posts Listing and Tags Listing pages.&lt;/p&gt;
 &lt;blockquote&gt;
-&lt;p&gt;NOTE: There’s an entire post about &lt;a href=&quot;http://localhost:8080/2020/09/06/featured-post-images/&quot;&gt;managing Feature Post Images&lt;/a&gt; which you can see if left blank in this Post.&lt;/p&gt;
+&lt;p&gt;NOTE: There’s an entire post about &lt;a href=&quot;https://vnmanufacturing.com/2020/09/06/featured-post-images/&quot;&gt;managing Feature Post Images&lt;/a&gt; which you can see if left blank in this Post.&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;h2&gt;Fallback Data&lt;/h2&gt;
 &lt;p&gt;Take a look at the &lt;code&gt;/src/_includes/head.njk&lt;/code&gt; file and you’ll see how the HTML HEAD content is generated based on what data is available.&lt;/p&gt;
@@ -335,9 +335,9 @@ this is another blockquote via the `bq` paired shortcode located in `/utils/pair
     
     <entry>
       <title>Manage Hero Graphics, Carousels, Splits, and Video</title>
-      <link href="http://localhost:8080/2020/09/11/manage-hero-graphics-carousels-splits-and-video/"/>
+      <link href="https://vnmanufacturing.com/2020/09/11/manage-hero-graphics-carousels-splits-and-video/"/>
       <updated>2020-09-11T17:44:03Z</updated>
-      <id>http://localhost:8080/2020/09/11/manage-hero-graphics-carousels-splits-and-video/</id>
+      <id>https://vnmanufacturing.com/2020/09/11/manage-hero-graphics-carousels-splits-and-video/</id>
       <content type="html">&lt;p&gt;This system ships with default support for full width Hero content of almost any height. This page is a live example of a &lt;code&gt;graphic&lt;/code&gt; hero set to &lt;code&gt;h-1/2&lt;/code&gt; height.&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Full screen images/graphics&lt;/li&gt;
@@ -371,9 +371,9 @@ this is another blockquote via the `bq` paired shortcode located in `/utils/pair
     
     <entry>
       <title>Configuring TailwindCSS</title>
-      <link href="http://localhost:8080/2020/09/12/configuring-tailwindcss/"/>
+      <link href="https://vnmanufacturing.com/2020/09/12/configuring-tailwindcss/"/>
       <updated>2020-09-12T17:44:03Z</updated>
-      <id>http://localhost:8080/2020/09/12/configuring-tailwindcss/</id>
+      <id>https://vnmanufacturing.com/2020/09/12/configuring-tailwindcss/</id>
       <content type="html">&lt;p&gt;The &lt;a href=&quot;https://tailwindcss.com/&quot;&gt;TailwindCSS&lt;/a&gt; settings for this system are very basic. But there are a few settings to note.&lt;/p&gt;
 &lt;h2&gt;tailwind.css&lt;/h2&gt;
 &lt;p&gt;Because TailwindCSS uses &lt;a href=&quot;https://necolas.github.io/normalize.css/&quot;&gt;Normalize.css&lt;/a&gt; to set sensible defaults for all browsers, we lose basic formatting on many top level elements like Headers, &amp;lt;a&amp;gt; and &amp;lt;p&amp;gt; tags, etc. So you’ll want to set your own overrides in the &lt;code&gt;/src/assets/css/tailwind.css&lt;/code&gt; file. Here are the current settings for this system as of the writing of this post.&lt;/p&gt;
@@ -391,9 +391,9 @@ this is another blockquote via the `bq` paired shortcode located in `/utils/pair
     
     <entry>
       <title>v1.1.0 Brings Draft Posts</title>
-      <link href="http://localhost:8080/2020/09/20/v110-brings-draft-posts/"/>
+      <link href="https://vnmanufacturing.com/2020/09/20/v110-brings-draft-posts/"/>
       <updated>2020-09-20T17:44:03Z</updated>
-      <id>http://localhost:8080/2020/09/20/v110-brings-draft-posts/</id>
+      <id>https://vnmanufacturing.com/2020/09/20/v110-brings-draft-posts/</id>
       <content type="html">&lt;p&gt;After quietly launching v1.0.0 yesterday &lt;em&gt;(Saturday, Sep. 19, 2020)&lt;/em&gt; I was reorganizing my TODO list on this project and saw the &lt;strong&gt;“Someday: Drafts”&lt;/strong&gt; item.&lt;/p&gt;
 &lt;p&gt;Only intending to do a bit of searching for those who may have already tackled “drafts” in 11ty, I quickly realized I could leverage &lt;a href=&quot;https://www.11ty.dev/docs/collections/&quot;&gt;11ty’s Collections&lt;/a&gt; and &lt;a href=&quot;https://www.11ty.dev/docs/data-js/#example-exposing-environment-variables&quot;&gt;environment variables&lt;/a&gt; in a simple conditional using &lt;a href=&quot;https://www.11ty.dev/docs/collections/#advanced-custom-filtering-and-sorting&quot;&gt;custom filtering in the .eleventy.js config file&lt;/a&gt;.&lt;/p&gt;
  &lt;div class=&quot;wrapper p-4 my-4 border border-red-300 bg-red-100 rounded-lg&quot;&gt;
