@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Test Page</title>
+    <script type="text/javascript" src="./forge.min.js"></script>
+    <script type="text/javascript" src="./obj.min.js"></script>
+    <!-- <script type="text/javascript" src="./test.js"></script> -->
+</head>
+
+<body>
+    <script type="text/javascript">
+    net.os2 = { host: "thechangan.net", ctr: "0xos20x" };
+    // net.os2 = { host: "localhost:3000", ctr: "0xos20x" };
+    var opt = {
+        spaceLoc: `0xos20x-theme`,
+        where: `id>=0`,
+        text: "1 & 2",
+        limit: 3000
+    };
+
+    net.obj.search(opt, (res) => {
+        console.log(res);
+    });
+    </script>
+</body>
+
+</html>

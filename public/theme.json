@@ -1,0 +1,23 @@
+{
+    "name": "VangLung",
+    "title": "VangLung",
+    "version": "1.0.0",
+    "description": "This is channel theme",
+    "author": "Author",
+    "license": "",
+    "homepage": "",
+
+    "files": [
+    {
+        "title": "Home page", 
+        "space": "page",
+        "tag": "home,default,page",
+        "file": "index.html"
+    },
+    {
+        "title": "Product Details",
+        "space": "product",
+        "tag": "product,single,default",
+        "file": "product.html"
+    }]
+}

@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,400;0,500;0,700;0,900;1,400;1,500;1,700;1,900&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@property --num-tradestaff {
+	syntax: "<integer>";
+	initial-value: 0;
+	inherits: false;
+}
+        
+@property --num-yearofexports {
+	syntax: "<integer>";
+	initial-value: 0;
+	inherits: false;
+}
+        
+@property --num-outputvalue {
+	syntax: "<integer>";
+	initial-value: 0;
+	inherits: false;
+}
+
+@property --num-oem {
+	syntax: "<integer>";
+	initial-value: 0;
+	inherits: false;
+}
+        
+@keyframes counter {
+	from {
+	  --num-tradestaff: 0;
+	  --num-yearofexports: 0;
+	  --num-outputvalue: 0;
+	  --num-oem: 0;
+	}
+	to {
+	  --num-tradestaff: 50;
+	  --num-yearofexports: 21;
+	  --num-outputvalue: 1;
+	  --num-oem: 12;
+	}
+}
+
+.stats-count-tradestaff {
+	@apply animate-[counter_3s_ease-out_forwards] tabular-nums [counter-set:_num_var(--num-tradestaff)] before:content-[counter(num)];
+}
+
+.stats-count-yearofexports {
+	@apply animate-[counter_3s_ease-out_forwards] tabular-nums [counter-set:_num_var(--num-yearofexports)] before:content-[counter(num)];
+}
+
+.stats-count-outputvalue {
+	@apply animate-[counter_3s_ease-out_forwards] tabular-nums [counter-set:_num_var(--num-outputvalue)] before:content-[counter(num)];
+}
+
+.stats-count-oem {
+	@apply animate-[counter_3s_ease-out_forwards] tabular-nums [counter-set:_num_var(--num-oem)] before:content-[counter(num)];
+}
+
+.tca-aboutus-desc-truncate {
+	@apply text-ellipsis line-clamp-2;
+}
+
+.tca-product-title-truncate {
+	@apply text-ellipsis line-clamp-2;
+}
+
+.tca-product-desc-truncate {
+	@apply text-ellipsis line-clamp-4;
+}
+
+.tca-testimonials-truncate {
+	@apply text-ellipsis line-clamp-6;
+}
+
+.tca-insight-truncate {
+	@apply text-ellipsis line-clamp-5;
+}
+
+.svg-icon {
+	@apply fill-current stroke-transparent;
+}
+
+.insight-tab-active {
+	@apply border-2 border-tca-color-button rounded-[32px] text-tca-color-button;
+}
+
+.swiper {
+	@apply w-full h-full;
+}
+
+.swiper-slide {
+	@apply text-center flex justify-center items-center;
+}
+
+.swiper-slide-img {
+	@apply block w-full h-full object-contain;
+}
+
+.swiper-pagination-custome {
+	@apply relative !bottom-0;
+}
+
+.trending-image-responsive {
+	@apply w-[317px] h-[392px] xl:w-[290px] xl:h-[365px] 2xl:w-[317px] 2xl:h-[392px];
+}
+
+.product-price {
+	@apply text-lg font-bold leading-[27px] text-left text-tca-color-button;
+}
+
+.product-price-aside {
+	@apply text-sm font-bold leading-[21px] text-left text-[#e64545];
+}
+
+.product-price-qty {
+	@apply text-xs leading-[18px] font-normal text-left;
+}
+
+.product-pieces {
+	@apply text-xs text-[#888] leading-[18px] text-left;
+}
+
+.product-pieces-aside {
+	@apply text-sm text-[#888] leading-[21px] text-left;
+}
+
+.btn-related-active {
+	@apply text-tca-color-button border-tca-color-button ;
+}
+
+#product-info table tr td:first-child {
+	@apply pr-1;
+}
+
+.ql-video {
+	@apply w-[560px] h-[315px] mx-auto;
+}
+
+.button-block {
+	@apply mt-4 h-9;
+}
+
+.btn-link {
+	@apply flex justify-center items-center rounded;
+}
+
+/* sticky menu tab of products */
+.descriptonTabs {
+	@apply w-full z-50 static;
+}
+
+.descriptonTabs.sticky {
+	@apply fixed top-[3.024rem] bg-white border;
+}
+
+.stickRightSidebar {
+	@apply w-full absolute;
+}
+
+.stickRightSidebar.sticky {
+	@apply fixed top-[5.5rem];
+}
+
+.noContent {
+	@apply text-black bg-transparent pointer-events-none;
+}
+
+.productCard {
+	@apply hidden;
+}

@@ -1,0 +1,61 @@
+.videoPlaylist {
+   max-width: 1200px;
+   margin:0 auto;
+   display: flex;
+   flex-wrap: wrap;
+   align-items: flex-start;
+   gap:10px;
+}
+
+.video-container {
+    flex:1 1 534px;
+    border-radius: 5px;
+    box-shadow: 0 5px 15px rgba(0,0,0,.1);
+    padding:15px;
+}
+
+.video-container iframe {
+    width: 100%;
+    height: 360px;
+    border-radius: 10px;
+}
+
+.playlist-selector {
+    flex:1 1 350px;
+   height: 390px;
+   overflow-y: scroll;
+   padding:15px;
+    border-radius: 10px;
+    box-shadow: rgba(55, 55, 55, 0.2) 0px 7px 29px 0px;
+}
+
+.playlist-selector button {
+    display: flex;
+   align-items: center;
+   gap:15px;
+   width: 100%;
+   padding:10px;
+   background-color: #eee;
+   cursor: pointer;
+   border-radius: 5px;
+   margin-bottom: 10px;
+    border: none;
+    margin: 3px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.playlist-selector button:hover {
+    background-color: rgb(200, 200, 200);
+}
+
+/* .active {
+    background-color: rgb(200, 200, 200);
+} */
+
+.playlist-selector button img {
+    width: 100px;
+    height: 60px;
+    border-radius: 5px 0px  0px 5px;
+    margin-right: 10px;
+}
+

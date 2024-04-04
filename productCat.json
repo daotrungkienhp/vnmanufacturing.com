@@ -1,0 +1,19 @@
+{
+          "spaceLoc": "0x00190x-category",
+          "name": "Sale",
+          "title": "Sale",
+          "slug": "sale",
+          "description": "",
+          "parent": "0x00190x-category-0-0-18",
+          "productType": "products",
+          "for": "product",
+          "id": 14,
+          "loc": "0x00190x-category-0-0-14",
+          "created": 1707216654367,
+          "aps": {
+              "guest": {
+                  "read": 1
+              }
+          },
+          "updated": 1709090031806
+      }
